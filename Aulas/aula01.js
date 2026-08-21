@@ -1,1 +1,4 @@
-console.log("Hello World");
+"use strict"; //Modo restrito
+
+let nome = "kaue";
+console.log(nome);
