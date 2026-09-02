@@ -1,25 +1,14 @@
-const caixa1 = document.querySelector(".container");
-const caixa2 = document.querySelector("#div2");
-const btn = document.querySelector("#botao");
-const todosCursos = [...document.querySelectorAll(".curso")];
+const caixa1 = document.querySelector("#caixa1");
+const btn_c1 = document.querySelector("#c1");
+const cursos = [...document.querySelectorAll(".curso")];
 
-todosCursos.map((el) => {
-  el.addEventListener("click", (evt) => {
-    const curso = evt.target;
-    curso.classList.toggle("destaque"); //Elemento tem? Se sim, remove, se não, adiciona
-  });
+caixa1.addEventListener("click", (event) => {
+  console.log(event);
+  console.log("Clicou");
 });
 
-btn.addEventListener("click", (evt) => {
-  const cursosSelecioados = [...document.querySelectorAll(".destaque")];
-  const cursosNaoSelecioados = [
-    ...document.querySelectorAll(".curso:not(.destaque)"),
-  ];
-  console.log(cursosNaoSelecioados);
-  cursosSelecioados.map((el) => {
-    caixa2.appendChild(el); //Anexar um filho ao elemento caixa2
-  });
-  cursosNaoSelecioados.map((el) => {
-    caixa1.appendChild(el); //Anexar um filho ao elemento caixa2
+cursos.map((el) => {
+  el.addEventListener("click", (event) => {
+    event.stopPropagation();
   });
 });
