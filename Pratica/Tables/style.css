@@ -1,0 +1,16 @@
+table {
+  width: 400px;
+  height: 400px;
+  border-collapse: collapse;
+  border: 2px solid red;
+}
+
+td {
+  border: 1px solid #000;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+tr.linha {
+  background-color: gray;
+}
