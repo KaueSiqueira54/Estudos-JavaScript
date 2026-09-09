@@ -1,0 +1,14 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+tbody {
+  border: 2px solid #000;
+}
+
+td {
+  border: 1px solid #000;
+  text-align: center;
+}
