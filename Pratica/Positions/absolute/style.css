@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+#div01 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+
+#div02 {
+  position: absolute;
+  width: 800px;
+  height: 200px;
+  background-color: yellow;
+  left: 200px;
+}
+
+#div03 {
+  position: absolute;
+  width: 1000px;
+  height: 100px;
+  background-color: green;
+  top: 200px;
+}
+
+#div04 {
+  position: absolute;
+  width: 1000px;
+  height: 300px;
+  background-color: red;
+  top: 300px;
+}
+
+#div05 {
+  position: absolute;
+  width: 1000px;
+  height: 100px;
+  top: 600px;
+  background-color: gray;
+}

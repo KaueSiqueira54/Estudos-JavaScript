@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 80%;
+  height: 530px;
+  border: 1px solid #000;
+  margin: 0 auto;
+}
+
+#div1 {
+  position: absolute;
+  width: 80%;
+  height: 100px;
+  background-color: red;
+  text-align: center;
+}
+
+#div2 {
+  position: absolute;
+  width: 80%;
+  height: 50px;
+  top: 100px;
+  background-color: aqua;
+}
+
+#div3 {
+  position: absolute;
+  width: 30%;
+  height: 300px;
+  top: 150px;
+  background-color: green;
+}
+
+#div4 {
+  position: absolute;
+  width: 50%;
+  height: 300px;
+  top: 150px;
+  left: 40%;
+  background-color: yellow;
+}
+
+#div5 {
+  position: absolute;
+  width: 80%;
+  height: 80px;
+  top: 450px;
+  background-color: gray;
+}

@@ -1,0 +1,27 @@
+.borda {
+  border: 1px solid red;
+}
+
+.la > li {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+}
+
+.la li > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: red;
+}
+
+#ex1 {
+  max-width: 800px;
+  height: 100px;
+  border: 1px solid red;
+}
+
+#ex2 {
+  width: 200px;
+  height: 100px;
+  border: 1px solid red;
+}

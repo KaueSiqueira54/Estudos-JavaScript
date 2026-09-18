@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário simples</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="" method="post" autocomplete="off">
+      <fieldset>
+        <legend>dados pessoais</legend>
+        <p>
+          <label for="nome">Nome:</label>
+          <input type="text" name="nome" id="nome" autocomplete="name" />
+        </p>
+        <p>
+          <label for="idade">Idade:</label>
+          <input type="number" name="idade" id="idade" min="0" max="10" />
+        </p>
+        <p>
+          <label for="email">Email:</label>
+          <input type="email" name="" id="" />
+        </p>
+        <p>
+          <label for="senha">Senha:</label>
+          <input
+            type="password"
+            name="senha"
+            id="senha"
+            required
+            placeholder="Senha"
+          />
+        </p>
+      </fieldset>
+      <input type="submit" value="Enviar" />
+    </form>
+
+    <form action="" method="get" autocomplete="off">
+      <p>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required />
+      </p>
+
+      <p>
+        <label for="tel">Telefone:</label>
+        <input type="tel" name="tel" id="tel" autocomplete="tel" />
+      </p>
+
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>
