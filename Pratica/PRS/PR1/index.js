@@ -10,6 +10,8 @@ section.style.height = "auto";
 section.style.margin = "auto";
 section.style.display = "flex";
 section.style.flexDirection = "column";
+section.style.textAlign = "center";
+section.style.fontSize = "20px";
 
 //Div container 1
 
@@ -29,6 +31,8 @@ div1.setAttribute("class", "div1");
 div1.style.width = "20%";
 div1.style.height = "100px";
 div1.style.backgroundColor = "blue";
+div1.style.color = "#fff";
+div1.innerHTML = "Container 1";
 
 divContainer1.appendChild(div1);
 
@@ -39,6 +43,8 @@ div2.setAttribute("class", "div2");
 div2.style.width = "80%";
 div2.style.height = "100px";
 div2.style.backgroundColor = "rgb(255, 238, 0)";
+div2.style.color = "#000";
+div2.innerHTML = "Container 2";
 
 divContainer1.appendChild(div2);
 
@@ -48,6 +54,8 @@ let divContainer2 = document.createElement("div");
 divContainer2.style.width = "100%";
 divContainer2.style.height = "60px";
 divContainer2.style.backgroundColor = "green";
+divContainer2.style.color = "#fff";
+divContainer2.innerHTML = "Container 3";
 
 section.appendChild(divContainer2);
 
@@ -71,6 +79,9 @@ let div3 = document.createElement("div");
 div3.style.width = "95%";
 div3.style.height = "320px";
 div3.style.backgroundColor = "yellow";
+div3.style.color = "#000";
+div3.innerHTML = "Container 4";
+
 divContainer3.appendChild(div3);
 
 //div 4
@@ -79,5 +90,7 @@ const div4 = document.createElement("div");
 div4.style.width = "100%";
 div4.style.height = "50px";
 div4.style.backgroundColor = "gray";
+div4.style.color = "#000";
+div4.innerHTML = "Container 5";
 
 section.appendChild(div4);
